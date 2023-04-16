@@ -1,0 +1,45 @@
+html, body {
+    width: 300px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    background: url("background.png");
+  }
+  
+  h1 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 5px white solid;
+    border-bottom: 5px white solid;
+    padding: 5px 0px;
+    margin-bottom: 60px;
+  }
+  
+  button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #FF5345;
+    border-radius: 5px;
+    border: none; 
+    width: 138px;
+    height: 48px;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 auto;
+  }
+
+  button:hover{
+    background:#00A010;
+    ;
+  }
+  
+  img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+  
